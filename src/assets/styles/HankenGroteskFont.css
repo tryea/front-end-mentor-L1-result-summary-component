@@ -1,0 +1,25 @@
+/* assuming you're in src/assets/styles/ and your font file is in src/assets/fonts/ */
+
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('../fonts/static/HankenGrotesk-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('../fonts/static/HankenGrotesk-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('../fonts/static/HankenGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
